@@ -319,3 +319,26 @@ h1, h2, h3 { line-height: 1.2; color: var(--azul-escuro); }
   .btn-nav { display: none; }
   .hero { padding: 48px 0 44px; }
 }
+/* ===== Navegação entre boroscópios ===== */
+.page-changer {
+  padding: 56px 0;
+  background: var(--fundo-alt);
+  border-top: 1px solid var(--borda);
+  text-align: center;
+}
+.page-changer p {
+  font-weight: 700;
+  color: var(--texto-suave);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  margin-bottom: 22px;
+}
+.page-changer-links {
+  width: min(1120px, 92%);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
